@@ -1,7 +1,7 @@
 #+BEGIN_HTML
 ---
 layout: default
-title: YOUR AWESOME TITLE HERE  
+title: Home
 tagline: This is what I live for
 ---
 #+END_HTML
@@ -14,3 +14,9 @@ tagline: This is what I live for
 ** Sub heading
 
   This should be a smaller section than the first
+
+#+BEGIN_SRC emacs-lisp
+       (defun org-xor (a b)
+          "Exclusive or."
+          (if a (not b) b))
+#+END_SRC

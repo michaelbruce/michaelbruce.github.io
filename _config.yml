@@ -1,1 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Blog!
+tagline:             'This is what I live for'
+description:         'A little space to say my piece.'
+url:                 http://michaelbruce.github.io
+baseurl:             ''
+paginate:            5
 exclude: [org/]
+
+# About/contact
+author:
+  name:              Michael Bruce
+  url:               https://twitter.com/mikepjb
+  email:             mikepjb@gmail.com
+
+# Custom vars
+version:             1.0.0

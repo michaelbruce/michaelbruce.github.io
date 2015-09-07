@@ -20,3 +20,9 @@ tagline: This is what I live for
           "Exclusive or."
           (if a (not b) b))
 #+END_SRC
+
+  |--------+-------|
+  | Sample | Table |
+  |--------+-------|
+  | hello. | bye.  |
+  |--------+-------|

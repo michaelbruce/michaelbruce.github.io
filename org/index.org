@@ -1,13 +1,16 @@
 #+BEGIN_HTML
 ---
+layout: default
 title: YOUR AWESOME TITLE HERE  
+tagline: This is what I live for
 ---
 #+END_HTML
+#+OPTIONS: toc:nil
 
 * Hello World!
 
   This is the index page
   
-* Second page
+** Sub heading
 
-  Will this be the second page?
+  This should be a smaller section than the first

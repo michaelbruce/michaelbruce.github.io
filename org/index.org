@@ -1,0 +1,13 @@
+#+BEGIN_HTML
+---
+title: YOUR AWESOME TITLE HERE  
+---
+#+END_HTML
+
+* Hello World!
+
+  This is the index page
+  
+* Second page
+
+  Will this be the second page?

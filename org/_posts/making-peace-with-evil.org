@@ -1,0 +1,24 @@
+#+BEGIN_HTML
+---
+layout: default
+title: Home
+tagline: This is what I live for
+---
+#+END_HTML
+#+OPTIONS: toc:nil
+
+* Making peace with evil
+
+  This is the beginning of a series on configuring the vi compatability layer 'evil' for emacs.
+  
+** C-w in all the right places
+
+  This should be a smaller section than the first
+
+#+BEGIN_SRC emacs-lisp
+(add-hook 'minibuffer-setup-hook
+          (lambda ()
+            (define-key minibuffer-local-map (kbd "C-w") 'backward-kill-word)
+            )
+          )
+#+END_SRC

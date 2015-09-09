@@ -1,8 +1,7 @@
 #+BEGIN_HTML
 ---
 layout: default
-title: Home
-tagline: This is what I live for
+title: Making peace with evil
 ---
 #+END_HTML
 #+OPTIONS: toc:nil

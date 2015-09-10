@@ -7,22 +7,14 @@ tagline: This is what I live for
 #+END_HTML
 #+OPTIONS: toc:nil
 
-* Hello World!
+* Welcome!
 
-  This is the index page
+Check out these articles
+
+#+BEGIN_HTML
+    {% for post in site.posts %}
+      <a href="{{ post.url }}">{{ post.title }}</a><span> &raquo; {{ post.date | date_to_string }}</span>
+    {% endfor %}
+#+END_HTML
   
-** Sub heading
-
-  This should be a smaller section than the first
-
-#+BEGIN_SRC emacs-lisp
-       (defun org-xor (a b)
-          "Exclusive or."
-          (if a (not b) b))
-#+END_SRC
-
-  |--------+-------|
-  | Sample | Table |
-  |--------+-------|
-  | hello. | bye.  |
-  |--------+-------|
+Add in a text blurb/one liner

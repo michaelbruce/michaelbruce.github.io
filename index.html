@@ -5,49 +5,18 @@ tagline: This is what I live for
 ---
 
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1"><span class="section-number-2">1</span> Hello World!</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Welcome!</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-This is the index page
+Check out these articles
 </p>
-</div>
 
-<div id="outline-container-sec-1-1" class="outline-3">
-<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Sub heading</h3>
-<div class="outline-text-3" id="text-1-1">
+{% for post in site.posts %}
+  <a href="{{ post.url }}">{{ post.title }}</a><span> &raquo; {{ post.date | date_to_string }}</span>
+{% endfor %}
+
 <p>
-This should be a smaller section than the first
+Add in a text blurb/one liner
 </p>
-
-<div class="org-src-container">
-
-<pre class="src src-emacs-lisp">(defun org-xor (a b)
-   "Exclusive or."
-   (if a (not b) b))
-</pre>
-</div>
-
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="left" />
-
-<col  class="left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="left">Sample</th>
-<th scope="col" class="left">Table</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="left">hello.</td>
-<td class="left">bye.</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>

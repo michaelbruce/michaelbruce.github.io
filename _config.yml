@@ -12,6 +12,7 @@ url:                 http://michaelbruce.github.io
 baseurl:             ''
 paginate:            5
 exclude: [org/]
+highlighter: pygments
 
 # About/contact
 author:

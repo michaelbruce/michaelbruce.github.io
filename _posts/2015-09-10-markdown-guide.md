@@ -24,11 +24,16 @@ tagline: This is what I live for
 ---
 
 - Code blocks are made by indenting **twice**:  
-Sometimes 3 indents are required (following bullets for example)
+Sometimes 3 indents are required (following bullets for example)  
 
-      def colorize(color_code)
-        "\e[#{color_code}m#{self}\e[0m"
-      end
+{% highlight ruby %}
+def colorize(color_code)
+  "\e[#{color_code}m#{self}\e[0m"
+end
+{% endhighlight %}
+
+Alternatively in jekyll, using highlighting liquid tags you don't need any indentation:  
+e.g \{\% highlight ruby \%\} code \{\% endhighlight \%\}
 
 ---
 

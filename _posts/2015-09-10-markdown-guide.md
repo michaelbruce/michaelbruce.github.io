@@ -4,7 +4,8 @@ title: Markdown tips
 tagline: This is what I live for
 ---
 
-# Markdown tips  
+## Markdown tips
+
 - ending lines with two spaces is the equivalent of an html \<br>  
 
 ---

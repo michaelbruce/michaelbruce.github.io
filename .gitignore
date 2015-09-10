@@ -1,4 +1,5 @@
 _site/
 .sass-cache/
 michaelbruce.github.io/
-scrap/
+_scrap/
+_org/

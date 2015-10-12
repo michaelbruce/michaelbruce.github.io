@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pointers
+title: Fluxbox
 ---
 
 # Fluxbox

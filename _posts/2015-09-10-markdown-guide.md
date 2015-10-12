@@ -4,7 +4,7 @@ title: Markdown tips
 tagline: This is what I live for
 ---
 
-## Markdown tips
+# Markdown tips
 
 - ending lines with two spaces is the equivalent of an html \<br>  
 
@@ -54,7 +54,7 @@ Links like so:
 ---
 
 !\[A friendly bear]\(friendly_bear.jpg)
-![A friendly bear]({{ site.baseurl }}/public/friendly_bear.jpg)
+![A friendly bear]({{ site.baseurl }}/public/friendly_bear.jpg){: .center-image }
 
 ---
 

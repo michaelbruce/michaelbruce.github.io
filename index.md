@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-tagline: This is what I live for
+tagline: These are thoughts flowing through my mind
 ---
 
 ### Check out these articles

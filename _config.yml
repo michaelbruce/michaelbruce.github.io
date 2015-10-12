@@ -6,12 +6,15 @@ relative_permalinks: true
 
 # Setup
 title:               Focal Pointer
-tagline:             'This is what I live for'
+tagline:             'a software journal'
 description:         'A little space to say my piece.'
 url:                 http://michaelbruce.github.io
 baseurl:             ''
 paginate:            5
 exclude: [org/]
+
+# Conversion
+markdown:    kramdown
 highlighter: pygments
 
 # About/contact

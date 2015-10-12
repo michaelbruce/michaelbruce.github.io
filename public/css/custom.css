@@ -1,0 +1,16 @@
+/* My personal css */
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.right{
+    text-align: right;
+}
+
+.signature{
+    text-align: right;
+    font-style: italic;
+}

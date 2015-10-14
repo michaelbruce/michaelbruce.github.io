@@ -5,8 +5,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <img src="{{ site.github.repo }}/public/friendly_bear.jpg">
-    <p>{{ site.description }}</p>
+    <p align="center">{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
@@ -28,12 +27,40 @@
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/catalog">Catalog</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/about-me">About Me</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }} Michael Bruce</span>
   </nav>
 
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+  <div class="sidebar-item" style="position:absolute; bottom:0;">
+    <p align="center">
+      By Michael Bruce<br>
+
+      <img src="{{ site.github.repo }}/public/friendly_bear.jpg">
+      <font size=6>
+
+      <a title="twitter"
+         href="http://twitter.com/mikepjb"
+         class="ss-icon ss-social-circle">
+         twitter
+      </a>
+
+      <a title="github"
+         href="https://github.com/michaelbruce"
+         class="ss-icon ss-social-circle">
+         github
+      </a>
+
+      <a title="email"
+         href="mailto:mikepjb@gmail.com"
+         class="ss-icon ss-social-circle">
+         email
+      </a>
+
+      <a title="rss"
+         href=""
+         class="ss-icon ss-social-circle">
+         rss
+      </a>
+
+      </font>
     </p>
   </div>
 </div>

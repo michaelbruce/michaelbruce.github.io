@@ -9,7 +9,8 @@ This is the first in an ongoing series about the development of a command line b
 
 ![csvpeek]({{ site.baseurl }}/public/csvpeek.png){: .center-image }
 
-It's the first fullscreen terminal application, to do this I learn about VT100 codes and how they're used to do things like moving the cursor around the screen.
+
+It's my first venture in creating a fullscreen terminal applications, to do this I learn about VT100 codes and how they're used to do things like moving the cursor around the screen.
 Gary Bernhardt (link here) and James Edward Grey (link here)
 
 [include here in code scrollbox? github applet?]

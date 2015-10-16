@@ -35,6 +35,8 @@
  * Update the foundational and global aspects of the page.
  */
 
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:700);
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -150,13 +152,13 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Inconsolata", Menlo, Monaco, monospace;
 }
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: #eeeeee;
+  background-color: #1d1e1a;
   border-radius: 3px;
 }
 pre {
@@ -170,7 +172,8 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  color: #eeeeee;
+  background-color: #1d1e1a;
 }
 pre code {
   padding: 0;

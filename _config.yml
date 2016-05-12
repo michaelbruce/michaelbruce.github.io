@@ -15,7 +15,7 @@ gems: [jekyll-paginate]
 
 # Conversion
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 
 # About/contact
 author:

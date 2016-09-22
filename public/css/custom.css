@@ -2,15 +2,19 @@
 
 .center-image
 {
-    margin: 0 auto;
-    display: block;
+  margin: 0 auto;
+  display: block;
 }
 
 .right{
-    text-align: right;
+  text-align: right;
 }
 
 .signature{
-    text-align: right;
-    font-style: italic;
+  text-align: right;
+  font-style: italic;
+}
+
+#profile{
+  height: 150px;
 }

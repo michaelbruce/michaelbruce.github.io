@@ -67,3 +67,15 @@ This does what I want but it's hella messy.
 Pretty sure there is a reagent way of doing things - a way to make changes by isolated state so I should read up more on that.
 
 
+Update - here is a snippet of code
+```
+(defn update-display [id value]
+  (set! (.. (.getElementById js/document id) -style -display) value))
+```
+
+```
+    [:p.center [:button.talk-button
+    {:type "button"
+     :on-click #(update-display "contact" "inline")}
+     "Let's talk"]]
+```

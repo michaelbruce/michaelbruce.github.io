@@ -4,6 +4,8 @@ title: Home
 tagline: These are thoughts flowing through my mind
 ---
 
+### Welcome to my site
+
 ### Check out these articles
 <hr>
 

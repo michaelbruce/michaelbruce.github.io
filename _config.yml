@@ -5,9 +5,9 @@ permalink:           pretty
 
 # Setup
 title:               Michael Bruce Online
-tagline:             'a software journal'
+tagline:             'A guide on developing software'
 description:         'A little space to say my piece.'
-url:                 http://michaelbruce.github.io
+url:                 http://mikepjb.com
 baseurl:             ''
 paginate:            5
 exclude: [org/]

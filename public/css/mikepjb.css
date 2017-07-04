@@ -1,42 +1,41 @@
-html
-{
+html {
   font: 1em/1.5 'Proza Libre', sans-serif;
 }
 
-.wrap
-{
+.nowrap {
+    white-space: nowrap;
+}
+
+.wrap {
     width: 85%;
     max-width: 1140px;
     margin: auto;
 }
 
-.title
-{
+.title {
   font-family: 'Bungee Inline', cursive;
   font-size: 36px;
   text-decoration: none;
 }
 
-a
-{
+a {
   color: #df5f87;
 }
 
-.center-image
-{
+.center-image {
   margin: 0 auto;
   display: block;
 }
 
-.right{
+.right {
   text-align: right;
 }
 
-.signature{
+.signature {
   text-align: right;
   font-style: italic;
 }
 
-#profile{
+#profile {
   height: 150px;
 }

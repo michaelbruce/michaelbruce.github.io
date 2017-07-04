@@ -1,8 +1,13 @@
 html
 {
-  font-family: 'Proza Libre', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font: 1em/1.5 'Proza Libre', sans-serif;
+}
+
+.wrap
+{
+    width: 85%;
+    max-width: 1140px;
+    margin: auto;
 }
 
 .title

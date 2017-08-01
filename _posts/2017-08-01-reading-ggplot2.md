@@ -5,6 +5,8 @@ title: Reading Hadley's ggplot2
 
 ## Reading Hadley's ggplot2
 
+![ggplot2]({{ site.baseurl }}/public/ggplot2.png){: .center-image }
+
 Following DHH's advice in his 2014 railsconf talk I will be reading code in an
 effort to improve my own. I have chosen to review ggplot2 as I don't know what
 good R code looks like.
